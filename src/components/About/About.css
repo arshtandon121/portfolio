@@ -1,0 +1,58 @@
+.a{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right{
+    flex: 1;
+    /* display: flex; */
+    align-items: center;
+  
+    
+}
+
+.a-title{
+    height: 30px;
+    width: 100%;
+}
+
+.a-right{
+    
+    font-size: 20px;
+}
+
+.a-card{
+   height: 70vh;
+   width: 60%;
+   border-radius: 30px;
+   position: absolute;
+   overflow: hidden;
+
+}
+.a-card-bg{
+    width: 60%;
+    height:70vh;
+    border-radius: 30px;
+     position: absolute;
+       top: 50px;
+       left: 60px;
+       background-color: rgb(165, 157, 42);
+    
+}
+
+.a-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
